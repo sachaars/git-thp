@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord - Claia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard">
+    <aside class="sidebar">
+        <div class="logo">Claia</div>
+        <nav class="side-nav">
+            <a href="dashboard.html" class="active">Tableau de bord</a>
+            <a href="#">Documents</a>
+            <a href="#">Chat IA</a>
+            <a href="#">Paramètres</a>
+        </nav>
+        <div class="logout">
+            <a href="index.html">Déconnexion</a>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="dashboard-header">
+            <h1>Tableau de bord</h1>
+            <div class="actions">
+                <button>Synchroniser</button>
+                <button>Exporter</button>
+                <button>Importer</button>
+                <button>Imprimer</button>
+            </div>
+        </header>
+        <section class="dashboard-top">
+            <div class="tabs">
+                <span class="tab active">Tableau de bord</span>
+                <span class="tab">Checklists générées</span>
+                <span class="tab">Documents récents</span>
+                <span class="tab">Dernières requêtes</span>
+            </div>
+            <div class="welcome">
+                <span>Bonjour, Nom d’utilisateur</span>
+                <span class="date">Mars 2024</span>
+            </div>
+            <div class="pending">
+                <div>Documents en attente <strong>0</strong></div>
+                <div>Actions requises <strong>0</strong></div>
+            </div>
+        </section>
+        <section class="dashboard-content">
+            <div class="checklists">
+                <h2>Checklists disponibles</h2>
+                <p>Aucune checklist pour le moment.</p>
+            </div>
+            <div class="documents">
+                <h2>Documents récents</h2>
+                <p>Aucun document récent.</p>
+            </div>
+            <div class="chat">
+                <h2>Chat IA</h2>
+                <p>Zone de discussion avec l’IA.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

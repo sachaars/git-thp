@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.landing-header {
+    background: #004080;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+.landing-nav a {
+    margin: 0 1rem;
+    color: #fff;
+}
+.landing-intro {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.landing-intro .cta {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #004080;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 2rem auto;
+}
+.auth-form label {
+    margin-top: 0.5rem;
+}
+.auth-form input {
+    padding: 0.5rem;
+}
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar {
+    background: #222;
+    color: #fff;
+    width: 15%;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .logo {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.side-nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem 0;
+}
+.side-nav a.active {
+    font-weight: bold;
+}
+.logout {
+    margin-top: auto;
+}
+.main-content {
+    flex: 1;
+    padding: 1rem 2rem;
+}
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actions button {
+    margin-left: 0.5rem;
+}
+.dashboard-top {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.tabs {
+    background: #0066cc;
+    color: #fff;
+    padding: 0.5rem;
+}
+.tab {
+    margin-right: 0.5rem;
+}
+.welcome {
+    background: #88bbff;
+    padding: 0.5rem;
+}
+.pending {
+    background: #e0e0e0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dashboard-content {
+    margin-top: 1rem;
+}
+.dashboard-content > div {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+.dashboard-content .chat {
+    width: 100%;
+}
